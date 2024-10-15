@@ -1,0 +1,46 @@
+
+  
+  .content {
+    margin-left: 17.5rem; /* Leaves space for the pre-existing sidebar */
+    position: relative;
+    padding-top: 8rem;
+    background-color: rgb(223, 216, 216);
+    height: 100vh;
+    width: 100%; /* Adjusts the content width to account for the sidebar */
+    
+  }
+  
+  .background-image-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .background-image {
+    width: 65rem; /* Accounts for the padding */
+    height: 30rem;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+    background-color: rgba(0, 0, 0, 0.479); /* Optional for readability */
+    padding: 5px 400px 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .dashboard {
+    position: absolute;
+    top: 5rem;
+    left: 10px; /* Adjusted to avoid the sidebar */
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  }
+  
+  
+  
